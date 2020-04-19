@@ -91,7 +91,8 @@ function template_html_above()
 	<link rel="stylesheet"  href="', $settings['theme_url'], '/css/all.css?dmf2" />
 	<link rel="stylesheet"  href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?dmf2" />
 	<link rel="stylesheet" href="', $settings['theme_url'], '/css/responsive.css?dmf2" />
-	<link rel="stylesheet" href="', $settings['theme_url'], '/css/header.css?dmf2" />';
+	<link rel="stylesheet" href="', $settings['theme_url'], '/css/header.css?dmf2" />
+	<link rel="stylesheet" href="', $settings['theme_url'], '/css/footer.css?dmf2" />';
 
 	// Some browsers need an extra stylesheet due to bugs/compatibility issues.
 	foreach (array('ie7', 'ie6', 'webkit') as $cssfix)
