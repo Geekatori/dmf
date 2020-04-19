@@ -395,11 +395,11 @@ function template_body_below()
 		<div id="footer-left" class="footerdivs">
    <!--les liens vers les réseaux-->
 				<p class="follow">
-		<a href="https://www.facebook.com/groups/546874982106227/"><img alt="FaceBook" src="https://www.ducati-mostro-forum.fr/Themes/DMF/images/Facebook.png"/></a>
-        <a href="https://www.instagram.com/desmodue_garage/"><img alt="Instagram" src="https://www.ducati-mostro-forum.fr/Themes/DMF/images/Instagram.png"/></a>
-        <a href="https://www.flickr.com/groups/theducatimostro/"><img alt="Flickr" src="https://www.ducati-mostro-forum.fr/Themes/DMF/images/Flickr.png"/></a>
-		<a href="https://www.tapatalk.com/"><img alt="Tapatalk" src="https://www.ducati-mostro-forum.fr/Themes/DMF/images/Tapatalk.png"/></a>
-		<a href="https://www.youtube.com"><img alt="YouTube" src="https://www.ducati-mostro-forum.fr/Themes/DMF/images/YouTube.png"/></a>
+		<a href="https://www.facebook.com/groups/546874982106227/"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://www.instagram.com/desmodue_garage/"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.flickr.com/groups/theducatimostro/"><i class="fab fa-flickr fa-2x"></i></a>
+		<a href="https://www.youtube.com"><i class="fab fa-youtube-square fa-2x"></i></a>
+		
 				</p>
 	<!--le logo DMF-->
         	<p class="follow"><a href="/forum_test"><img alt="DMF" src="https://www.ducati-mostro-forum.fr/Themes/DMF/images/Sticker.png"/></a>

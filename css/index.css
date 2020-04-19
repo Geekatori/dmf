@@ -1485,6 +1485,22 @@ input.qaction {
 	text-align: center;
 }
 
+.fa-facebook:hover {
+    color: white;
+}
+ 
+.fa-instagram:hover {
+    color: white;
+}
+
+.fa-flickr:hover {
+    color: white;
+}
+ 
+.fa-youtube-square:hover {
+    color: white;
+}
+
 .devmoto {
 	display: block;
 	width: 90px;
