@@ -23,16 +23,16 @@ body {
     transition-timing-function: ease;
 }
 .viewport-scrolled .animated-arrow {
-    top: 24px;
+    top: 18px;
 }
 .navbar-brand img {
     width: 120px;
     height: 61px;
-    transition: width 0.3s, height 0.3s;
+    transition: width 0.3s, height 0.3s, transform 0.3s;
 }
 .viewport-scrolled .navbar-brand img {
-    width: 90px;
-    height: 46px;
+    width: 70px;
+    height: 36px;
 }
 .navbar-top .navbar-nav .nav-link {
     position: relative;
