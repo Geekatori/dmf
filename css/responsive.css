@@ -1,0 +1,597 @@
+.mobile_on {
+	visibility: hidden;
+}
+
+.responsive_menu.login {
+	min-width: 16px;
+
+	width: auto;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+::selection {
+	background-color: #4d4d4d;
+
+	color: #e4e4e4;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.container {
+		max-width: 100%;
+	}
+}
+/* Adaptation aux écrans entre 768px et 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	table.table_list tbody.content td.stats {
+		display: none;
+	}
+
+	table.table_list tbody.content td.lastpost,
+	.topic_table table tbody tr td.lastpost {
+		width: 35% !important;
+	}
+}
+/* Adaptation aux écrans inferieurs à 720px */
+@media screen and (max-width: 720px) {
+	.nav_bar_inner,
+	.top_bar_inner,
+	.headerm_inner {
+		width: 100%;
+	}
+
+	.headerm,
+	.headerm_inner {
+		height: auto;
+	}
+
+	.logo_banner {
+		text-align: center;
+		max-width: 640px;
+	}
+
+	.logo_banner a > img {
+		max-width: 90%;
+	}
+
+	.quick_search_holder,
+	#search_form {
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.dropmenu li {
+		width: 51%;
+	}
+
+	.dropmenu li li,
+	.dropmenu li li li {
+		width: 100%;
+		text-align: left;
+	}
+
+	.dropmenu li ul {
+		width: 100%;
+	}
+
+	#quick_tasks li {
+		height: auto !important;
+		padding: 0;
+		width: 100% !important;
+		float: none !important;
+	}
+
+	.home_image {
+		clear: both;
+	}
+
+	#siteslogan,
+	img#smflogo,
+	.contact_info {
+		display: none;
+	}
+
+	.hidden,
+	.icon,
+	.stats,
+	#posting_icons,
+	#mlist th,
+	.icon1,
+	.icon2 {
+		display: none;
+	}
+
+	#statistics .stats {
+		display: block;
+	}
+
+	#stats_left,
+	#top_posters,
+	#top_topics_replies,
+	#top_topics_starter,
+	#stats_right,
+	#top_boards,
+	#top_topics_views,
+	#most_online,
+	#popularposts,
+	#popularactivity {
+		width: 100%;
+		float: none;
+	}
+
+	#report_post input {
+		width: 95%;
+		min-height: 50px;
+	}
+
+	.tborder .topic_table th.first_th {
+		display: none;
+	}
+
+	#topic_icons p {
+		display: block;
+		width: 100%;
+	}
+
+	#menu_toggle {
+		display: none;
+	}
+
+	h3.catbg #quick_search form {
+		margin: 0 0 8px 0;
+		padding: 0;
+	}
+
+	h3.catbg #quick_search form input {
+		margin: 0 0 12px 0;
+	}
+
+	h3.catbg #quick_search form select option {
+		padding: 4px;
+	}
+
+	h3.catbg #quick_search form .button_submit {
+		margin: 0 3px;
+	}
+
+	#credits_page {
+		padding-top: 35px;
+	}
+
+	.features_image {
+		display: none;
+	}
+
+	.features_switch {
+		margin: -20px 0 0 5px !important;
+	}
+
+	.features h4 {
+		margin: -10px 0 0 0 !important;
+		padding: 0 0 10px 0;
+	}
+
+	.features p {
+		margin: 0;
+		padding: 0;
+		min-height: 0;
+		max-height: 5.2em;
+		overflow: auto;
+	}
+
+	.mark_read .buttonlist {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.mark_read .buttonlist li {
+		width: auto;
+	}
+
+	#advanced_search {
+		text-align: left !important;
+	}
+
+	#advanced_search dt,
+	#advanced_search dd {
+		width: 100%;
+		float: none;
+		text-align: left;
+		margin: 0;
+	}
+
+	.login dt,
+	.login dd {
+		float: none;
+		text-align: left;
+		width: 90%;
+	}
+
+	input.enhanced {
+		display: block;
+	}
+
+	.enhanced select {
+		display: block;
+	}
+
+	#advanced_search dl#search_options {
+		width: 100%;
+	}
+
+	#searchform .input_text,
+	select {
+		width: 50%;
+		padding: 5px 0;
+	}
+
+	.ignoreboards {
+		width: 100% !important;
+		float: none !important;
+	}
+
+	#searchBoardsExpand {
+		overflow: hidden;
+	}
+
+	#main_menu .dropmenu li {
+		width: auto !important;
+	}
+
+	#main_menu .dropmenu span.firstlevel {
+		display: none;
+	}
+
+	#main_menu .dropmenu li:hover ul {
+		display: none;
+	}
+
+	tr.catbg th:last-child {
+		display: block;
+	}
+
+	#wrapper,
+	div#wrapper {
+		width: 100% !important;
+		min-width: 240px !important;
+		max-width: 767px !important;
+	}
+
+	div#upper_section div.user {
+		text-align: center;
+		float: none !important;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	div#upper_section div.user p,
+	div#upper_section div.user p > .avatar {
+		max-width: 100px;
+		max-height: 100px;
+		float: none !important;
+		margin: 0 auto;
+		text-align: center !important;
+	}
+
+	#upper_section div.news {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+	table.table_list tbody.content td.stats,
+	.lastpost,
+	body .topic_table td.lastpost {
+		display: table-cell;
+	}
+
+	img.icon {
+		display: inline-block;
+	}
+
+	#basicinfo,
+	#detailedinfo,
+	.modblock_left,
+	.modblock_right,
+	#live_news,
+	#supportVersionsTable {
+		width: 100% !important;
+		float: none;
+		margin: 0 0 3px;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	.postarea,
+	.moderatorbar {
+		margin: 0;
+	}
+	.poster {
+		float: none;
+		width: 100%;
+		position: relative;
+		padding-left: 80px;
+	}
+
+	.poster li.avatar img {
+		width: 75px;
+		max-height: 80px;
+		position: absolute;
+		left: 5px;
+		top: 0px;
+	}
+	.postarea h5 {
+		display: none;
+	}
+
+	.poster li.stars,
+	.poster li.blurb,
+	li.postcount,
+	li.im_icons,
+	li.title,
+	li.postgroup,
+	li.karma,
+	li.karma_allow,
+	li.gender,
+	li.custom,
+	li.email,
+	li.warning {
+		display: none;
+	}
+
+	.login {
+		width: auto !important;
+	}
+
+	dl {
+		overflow: hidden !important;
+	}
+
+	/*	dd, dt
+
+	{
+		float: none !important;
+		width: 100% !important;
+		overflow: hidden;
+		text-align: left !important;
+
+	}*/
+
+	.inner {
+		padding: 1em 0.5em 2px 0.5em;
+		margin: 0;
+	}
+
+	.signature,
+	.attachments {
+		width: 100%;
+		margin: 1em 0 0;
+		padding: 1em 1em 3px;
+		box-sizing: border-box;
+	}
+
+	.keyinfo {
+		background: none;
+		text-align: right;
+		width: 100% !important;
+	}
+	.smalltext {
+		padding: O 5px;
+	}
+
+	.buttonlist ul li {
+		margin: 2px 0;
+	}
+
+	.buttonlist ul li a span {
+		height: auto;
+	}
+
+	#quick_tasks li {
+		height: 5em !important;
+		padding: 0;
+	}
+
+	#main_admsection #basicinfo h4 {
+		width: 100% !important;
+	}
+
+	#left_admsection {
+		margin: 0 0 8px;
+		padding: 0 0 5px;
+		border-bottom: 3px solid #dbe4ef;
+		float: none;
+		width: 100%;
+	}
+
+	#sp_left,
+	#sp_right,
+	#sp_center {
+		width: 100%;
+		display: block;
+	}
+
+	table.table_grid thead tr.catbg th:first-child,
+	table.table_grid thead tr.catbg th:nth-child(3) {
+		display: none;
+	}
+}
+
+/* Adaptation aux écrans inferieurs à 480px */
+
+@media screen and (max-width: 480px) {
+	table.table_list tbody.content td.icon,
+	table.table_list a.unreadlink,
+	table.table_list a.collapse,
+	#index_common_stats {
+		display: none;
+	}
+
+	.mobile_on {
+		visibility: visible;
+	}
+
+	.poster {
+		position: relative;
+		height: 45px;
+		padding-left: 50px;
+	}
+
+	.poster li.avatar img {
+		width: 45px;
+		max-height: 45px;
+		position: absolute;
+		left: 5px;
+		top: 0px;
+	}
+	.poster li.profile {
+		display: none;
+	}
+	.postarea h5 {
+		display: none;
+	}
+	.postarea strong {
+		display: none;
+	}
+
+	#manage_boards .cat_bar {
+		margin-top: 10px;
+	}
+
+	#manage_boards .windowbg {
+		line-height: 3.2em;
+	}
+
+	#manage_boards ul {
+		max-height: 120em;
+		padding: 0 0 10px 0;
+	}
+
+	#manage_boards dd,
+	#manage_boards dt {
+		width: 100%;
+	}
+
+	#manage_boards dt {
+		line-height: 1.6em;
+	}
+}
+
+/* Adaptation aux écrans entre 240px et 640px */
+@media screen and (min-width: 240px) and (max-width: 640px) {
+	/* Considering something trying to be bad boy and editing body (especially portals!) */
+
+	body {
+		min-width: 240px !important;
+	}
+
+	/* Calendar Time */
+
+	#month_grid,
+	#month_grid table,
+	#main_grid {
+		float: none;
+		width: 100%;
+	}
+
+	#main_grid {
+		margin-left: 0 !important;
+	}
+
+	/* Load menu icons */
+
+	.responsive_menu {
+		background: url(../images/responsive_menu.png) no-repeat -5px -5px;
+		height: 16px;
+		width: 16px;
+		display: inline-block;
+	}
+
+	.responsive_menu.admin {
+		background-position: -31px -5px;
+	}
+
+	.responsive_menu.calendar {
+		background-position: -57px -5px;
+	}
+
+	.responsive_menu.forum {
+		background-position: -5px -31px;
+	}
+
+	.responsive_menu.help {
+		background-position: -31px -31px;
+	}
+
+	.responsive_menu.home {
+		background-position: -57px -31px;
+	}
+
+	.responsive_menu.login {
+		background-position: -5px -57px;
+	}
+
+	.responsive_menu.logout {
+		background-position: -31px -57px;
+	}
+
+	.responsive_menu.mlist {
+		background-position: -57px -57px;
+	}
+
+	.responsive_menu.moderate {
+		background-position: -83px -5px;
+	}
+
+	.responsive_menu.pm {
+		background-position: -83px -31px;
+	}
+
+	.responsive_menu.profile {
+		background-position: -83px -57px;
+	}
+
+	.responsive_menu.register {
+		background-position: -5px -83px;
+	}
+
+	.responsive_menu.search {
+		background-position: -31px -83px;
+	}
+
+	/* If it has more items, make some margin */
+
+	#main_menu {
+		margin: -15px 0 0 0;
+	}
+
+	.dropmenu li {
+		margin: 0 0 5px 0;
+	}
+
+	/* Do not hover or show them... */
+
+	#menu_nav .dropmenu li a.active,
+	#menu_nav .dropmenu li a.active:hover,
+	#menu_nav .dropmenu li:hover,
+	#menu_nav .dropmenu li a:hover,
+	#menu_nav .dropmenu li a.firstlevel:hover,
+	#menu_nav li:hover,
+	#menu_nav .dropmenu li:hover,
+	#menu_nav .dropmenu li:hover a.firstlevel,
+	#main_menu .dropmenu li a.active,
+	#main_menu .dropmenu li a:hover,
+	#main_menu .dropmenu li:hover ul,
+	#main_menu .dropmenu li ul {
+		background: none !important;
+	}
+
+	.bbc_img {
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+	}
+}
