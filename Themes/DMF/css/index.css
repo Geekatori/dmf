@@ -1434,78 +1434,19 @@ div#upper_section div.news form {
 /* The footer wih copyright links etc. */
 #footer-wrapper {
 	width: 100%;
-	height: 200px;
+	height: 220px;
 	background-color: #303030;
 	background-size: cover;
 }
-.footerdivs {
-	width: 25%;
-	float: left;
-	clear: none;
-	text-align: left;
-	padding: 20px;
-}
-.footerdivs2 {
-	width: 145px;
-	float: left;
-	clear: none;
-	text-align: left;
-	padding: 20px;
-}
-#footer_section {
-	text-align: left;
-	padding: 20px;
-	background: #303030;
-	background-size: cover;
-}
-#footer_section span.smalltext {
-	font-size: 100%;
-}
-#footer_section div.frame {
-	display: block;
-	padding: 0px 0 0 0;
-}
-#footer_section ul li,
-#footer_section p {
-	font-size: 0.8em;
-}
-#footer_section ul li {
-	display: inline;
-	padding-right: 5px;
-}
-#footer_section ul li.copyright {
-	display: block;
-}
-select.qaction,
-input.qaction {
-	font-size: 0.85em;
-	padding: 0;
-}
-#mlist table tbody td.windowbg2 {
-	text-align: center;
-}
 
-.fa-facebook:hover {
-    color: white;
+.lienspartenaires .partenaires li {
+	display: inline-block;
 }
- 
-.fa-instagram:hover {
-    color: white;
-}
-
-.fa-flickr:hover {
-    color: white;
-}
- 
-.fa-youtube-square:hover {
-    color: white;
-}
-
 .devmoto {
 	display: block;
+	text-indent: -9999px;
 	width: 90px;
 	height: 28px;
-	margin: 10px;
 	background: url(https://ducati-mostro-forum.fr/Themes/DMF/images/partners/devmotogris.png) no-repeat;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -1518,9 +1459,9 @@ input.qaction {
 }
 .desmo4all {
 	display: block;
+	text-indent: -9999px;
 	width: 165px;
 	height: 20px;
-	margin: 10px;
 	background: url(https://ducati-mostro-forum.fr/Themes/DMF/images/partners/desmo4allgris.png) no-repeat;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -1533,9 +1474,9 @@ input.qaction {
 }
 .ducatitoulouse {
 	display: block;
+	text-indent: -9999px;
 	width: 100px;
 	height: 31px;
-	margin: 10px 10px 10px 0px;
 	background: url(https://ducati-mostro-forum.fr/Themes/DMF/images/partners/ducatitoulousegris.png) no-repeat;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -1548,11 +1489,9 @@ input.qaction {
 }
 .sprido {
 	display: block;
-	position: relative;
-	left: 35px;
+	text-indent: -9999px;
 	width: 50px;
 	height: 50px;
-	margin: 10px;
 	background: url(https://ducati-mostro-forum.fr/Themes/DMF/images/partners/spridogris.png) no-repeat;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -1565,11 +1504,9 @@ input.qaction {
 }
 .bikerevival {
 	display: block;
-	position: relative;
-	left: 10px;
+	text-indent: -9999px;
 	width: 90px;
 	height: 33px;
-	margin: 10px;
 	background: url(https://ducati-mostro-forum.fr/Themes/DMF/images/partners/bikerevivalgris.png) no-repeat;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -1582,11 +1519,9 @@ input.qaction {
 }
 .steindinse {
 	display: block;
-	position: relative;
-	left: 30px;
+	text-indent: -9999px;
 	width: 100px;
 	height: 49px;
-	margin: 10px;
 	background: url(https://ducati-mostro-forum.fr/Themes/DMF/images/partners/steindinsegris.png) no-repeat;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -1599,11 +1534,9 @@ input.qaction {
 }
 .gb {
 	display: block;
-	position: relative;
-	left: 25px;
+	text-indent: -9999px;
 	width: 44px;
 	height: 50px;
-	margin: 10px 10px 10px 0px;
 	background: url(https://ducati-mostro-forum.fr/Themes/DMF/images/partners/gbgris.png) no-repeat;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
