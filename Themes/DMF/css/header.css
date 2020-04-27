@@ -43,6 +43,12 @@ body {
     right: 0;
 }
 
+a[id='new'],
+a[id*='msg'] {
+    scroll-snap-margin-top: 77px;
+    scroll-margin-top: 77px;
+}
+
 @media (min-width: 768px) {
     .animated-arrow {
         top: 41px;
