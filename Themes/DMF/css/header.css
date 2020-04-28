@@ -43,10 +43,13 @@ body {
     right: 0;
 }
 
-a[id='new'],
-a[id*='msg'] {
-    scroll-snap-margin-top: 77px;
-    scroll-margin-top: 77px;
+a[id='new']::before,
+a[id*='msg']::before {
+    content: '';
+    display: block;
+    visibility: hidden;
+    margin-top: -77px;
+    padding-top: 77px;
 }
 
 @media (min-width: 768px) {
